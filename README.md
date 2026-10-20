@@ -35,17 +35,22 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
 
 ```text
 ┌─────────────────────────┬────────────────────────────────────────────────────────┐
-│ Area                    │ Focus & Implementation                                  │
+│ Domain                  │ Focus & Production Implementation                      │
 ├─────────────────────────┼────────────────────────────────────────────────────────┤
-│ Anti-Abuse & Forensics  │ Radix-tree CIDR matching, Tor exit node heuristics,    │
-│                         │ device fingerprinting, and ban-evasion detection.       │
+│ Threat Intel & Python   │ Automated Python scrapers & parsers for threat feeds,  │
+│                         │ BGP/ASN aggregation, Tor consensus sync & log triage.  │
 ├─────────────────────────┼────────────────────────────────────────────────────────┤
-│ Applied Cryptography    │ Peppered salted hashing (Argon2 / SHA-256), blind      │
-│                         │ signatures, and Merkle-tree hash-chained audit logs.   │
+│ Anti-Abuse & Forensics  │ Radix-tree bitwise CIDR matching, JA4 fingerprinting,  │
+│                         │ device posture checks, velocity gates & ban evasion.   │
 ├─────────────────────────┼────────────────────────────────────────────────────────┤
-│ System Hardening        │ Zero-open-port architectures via Cloudflare Tunnels,    │
-│                         │ systemd process sandboxing, UFW isolation, and pre-git │
-│                         │ secret leak interception.                              │
+│ Applied Cryptography    │ Argon2id / SHA-256 peppered hashing, blind signatures, │
+│                         │ Ed25519 payload signing & Merkle-tree hash audit logs. │
+├─────────────────────────┼────────────────────────────────────────────────────────┤
+│ System Hardening        │ Zero-open-port via Cloudflare Tunnels, systemd cgroup  │
+│                         │ sandboxing, UFW isolation & pre-commit leak blockers.  │
+├─────────────────────────┼────────────────────────────────────────────────────────┤
+│ AppSec & Static Triage  │ Shannon entropy heuristics, regex token extraction &   │
+│                         │ AST secret leak prevention in CI / pre-commit stages.  │
 └─────────────────────────┴────────────────────────────────────────────────────────┘
 ```
 
@@ -113,6 +118,7 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
 
 #### Cybersecurity & Infrastructure
 <p align="left">
+  <img src="https://img.shields.io/badge/Threat_Intel-Python_Pipelines-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Threat Intel" />
   <img src="https://img.shields.io/badge/Cybersecurity-Defensive_Ops-red?style=for-the-badge&logo=target" alt="Cybersecurity" />
   <img src="https://img.shields.io/badge/Applied_Cryptography-Ed25519_/_Argon2-black?style=for-the-badge&logo=letsencrypt" alt="Cryptography" />
   <img src="https://img.shields.io/badge/Linux_Hardening-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
