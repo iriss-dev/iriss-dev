@@ -6,7 +6,8 @@
   **Cybersecurity & Systems Developer** · **Defensive Engineering & Threat Intel** · **Python & Low-Latency Tooling**
 
   <p align="center">
-    <a href="https://github.com/iriss-dev/ip-sentinel"><img src="https://img.shields.io/badge/ip--sentinel-830k%20ops%2Fs-blue?style=for-the-badge&logo=target" alt="ip-sentinel" /></a>
+    <a href="https://github.com/iriss-dev/blackice"><img src="https://img.shields.io/badge/blackice-threat--sentinel-00f0ff?style=for-the-badge&logo=target" alt="blackice" /></a>
+    <a href="https://github.com/iriss-dev/ip-sentinel"><img src="https://img.shields.io/badge/ip--sentinel-830k%20ops%2Fs-blue?style=for-the-badge&logo=linux" alt="ip-sentinel" /></a>
     <a href="https://github.com/iriss-dev/envshield"><img src="https://img.shields.io/badge/envshield-pre--commit-red?style=for-the-badge&logo=shield" alt="envshield" /></a>
     <a href="https://github.com/iriss-dev/draincord"><img src="https://img.shields.io/badge/draincord-zero--dep-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="draincord" /></a>
   </p>
@@ -26,6 +27,7 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
 - 🔍 **DFIR & Detection Engineering**: Crafting detection rules mapped to MITRE ATT&CK techniques, analyzing live process memory integrity (`/proc`), and designing tamper-evident audit logs with cryptographic hash chains.
 - 🔬 **Network & Protocol Forensics**: Deep-packet analysis of TLS ClientHello handshakes (JA4+ fingerprints), raw socket telemetry, DNS exfiltration detection, and BGP/ASN threat clustering.
 - 🐍 **Python & Systems Tooling**: Writing security tools, threat intelligence scrapers, log analysis pipelines, and automation utilities in **Python** alongside low-latency **TypeScript / Node.js** runtimes.
+- ❄️ Creator of **[blackice](https://github.com/iriss-dev/blackice)** — Autonomous Linux Ingress Defense & Local Threat Intelligence Sentinel with a Cyberpunk Cockpit. Proactive `nftables` kernel drop & `<0.05ms` local REST API.
 - 🌐 Creator of **[ip-sentinel](https://github.com/iriss-dev/ip-sentinel)** — 100% offline Datacenter, Tor, and VPN detection engine running at **830,000+ lookups/sec** (<0.005 ms).
 - 🔒 Creator of **[envshield](https://github.com/iriss-dev/envshield)** — 1-second pre-commit secret leak prevention & `.env` guardian for Git.
 - ⚡ Creator of **[draincord](https://github.com/iriss-dev/draincord)** — Zero-dependency Discord webhook log drain with rate-limit backoff and SQLite spooling.
@@ -81,7 +83,17 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/iriss-dev/blackice">blackice</a></h3>
+      <p>Autonomous Linux Ingress Defense & Local Threat Intelligence Sentinel with a Cyberpunk Cockpit. Proactive <code>nftables</code> kernel drops & <b>&lt;0.05ms</b> local REST/SSE API.</p>
+      <p>
+        <img src="https://img.shields.io/github/actions/workflow/status/iriss-dev/blackice/ci.yml?branch=main&label=CI&style=flat-square" alt="CI" />
+        <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/kernel-nftables-orange?style=flat-square" alt="Kernel" />
+      </p>
+      <code>pip install "blackice-guard[ui]"</code>
+    </td>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/iriss-dev/ip-sentinel">ip-sentinel</a></h3>
       <p>Zero-dependency, offline IP intelligence. Instant Datacenter, Tor, and VPN detection with radix-tree CIDR matching in <b>&lt;0.005 ms</b>.</p>
       <p>
@@ -90,7 +102,9 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
       </p>
       <code>npx ip-sentinel 104.16.1.1</code>
     </td>
-    <td width="33%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/iriss-dev/envshield">envshield</a></h3>
       <p>1-second Git pre-commit hook and CI scanner that prevents leaked <code>.env</code> files, Discord tokens, OpenAI keys, and AWS credentials in <b>&lt;15ms</b>.</p>
       <p>
@@ -99,7 +113,7 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
       </p>
       <code>npx envshield install</code>
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/iriss-dev/draincord">draincord</a></h3>
       <p>Resilient Discord webhook log drain with automatic batching, rate-limit backoff, and persistent SQLite WAL spooling across crashes.</p>
       <p>
