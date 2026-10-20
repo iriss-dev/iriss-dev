@@ -61,6 +61,7 @@ Hi! I'm Iris, an independent developer specializing in **defensive cybersecurity
 - 🔍 **DFIR & Detection Engineering**: Crafting detection rules mapped to MITRE ATT&CK techniques, analyzing live process memory integrity (`/proc`), and designing tamper-evident audit logs with cryptographic hash chains.
 - 🔬 **Network & Protocol Forensics**: Deep-packet analysis of TLS ClientHello handshakes (JA4+ fingerprints), raw socket telemetry, DNS exfiltration detection, and BGP/ASN threat clustering.
 - ❄️ Creator of **[blackice](https://github.com/iriss-dev/blackice)** — Autonomous Ingress Defense Sentinel with a VirusTotal-style multi-engine consensus scorer, canary decoy tripwires, and native `nftables` kernel drops in `<0.05ms`.
+- 🤖 Creator of **[blackice-mcp](https://github.com/iriss-dev/blackice)** — Official Model Context Protocol (MCP) Server empowering AI Agents (Cursor, Claude, Windsurf) with zero-trust threat consensus, phishing URL defense, and prompt-injection tripwires.
 - 🌐 Creator of **[ip-sentinel](https://github.com/iriss-dev/ip-sentinel)** — 100% offline Datacenter, Tor, and VPN detection engine running at **830,000+ lookups/sec** (<0.005 ms).
 - 🌸 Creator of **[koharu](https://github.com/iriss-dev/koharu)** — Cute Discord community bot with dynamic custom role management, booster dual-gradient perks, economy & blackjack.
 - 🔒 Creator of **[envshield](https://github.com/iriss-dev/envshield)** — 1-second pre-commit secret leak prevention & `.env` guardian for Git.
@@ -105,6 +106,9 @@ Hi! I'm Iris, an independent developer specializing in **defensive cybersecurity
 ├─────────────────────────┼────────────────────────────────────────────────────────┤
 │ DFIR & Memory Integrity │ Live process triage (/proc), memory map inspection,    │
 │                         │ forensic timeline reconstruction & audit trail stamps. │
+├─────────────────────────┼────────────────────────────────────────────────────────┤
+│ AI Agent Security & MCP │ Model Context Protocol (MCP) servers, prompt-injection │
+│                         │ tripwires, zero-width stego detection for AI Agents.   │
 ├─────────────────────────┼────────────────────────────────────────────────────────┤
 │ Zero-Trust & Hardening  │ Zero-open-port via Cloudflare Tunnels, systemd cgroup  │
 │                         │ isolation, Linux namespaces, UFW/nftables & seccomp.   │
