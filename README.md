@@ -3,17 +3,18 @@
 
   # Iris (iriss-dev) 👋
   
-  **Cybersecurity & Systems Developer** · **Defensive Engineering & Threat Intel** · **Rust, C/C++ & Python Low-Latency Tooling**
+  **Cybersecurity & Systems Developer** · **Embedded Firmware & Robotics** · **Rust, C/C++ Low-Latency & Hardware Probes**
 
   <!-- Animated Terminal Typing SVG -->
   <a href="https://github.com/iriss-dev">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&lines=Cybersecurity+%26+Defensive+Systems+Engineering;Low-Latency+Systems+in+Rust%2C+C%2FC%2B%2B+%26+Python;Sub-millisecond+Linux+Kernel+Ingress+Defense+(%3C0.05ms);VirusTotal-Style+Multi-Engine+Consensus+Scoring;Creator+of+BlackICE%2C+IP-Sentinel+%26+Koharu+%F0%9F%8C%B8;Active+Deception+%26+Zero-False-Positive+Honeytraps" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&lines=Cybersecurity+%26+Defensive+Systems+Engineering;Low-Latency+Systems+in+Rust%2C+C%2FC%2B%2B+%26+Python;Embedded+Firmware%2C+Microcontrollers+%26+Robotics;Sub-millisecond+Linux+Kernel+Ingress+Defense+(%3C0.05ms);From+Bare-Metal+Silicon+to+Autonomous+AI+Agents;Creator+of+BlackICE%2C+IP-Sentinel+%26+Koharu+%F0%9F%8C%B8;Active+Deception+%26+Zero-False-Positive+Honeytraps" alt="Typing SVG" />
   </a>
 
   <!-- Curated High-Signal Badges -->
   <p align="center">
     <img src="https://img.shields.io/badge/Focus-Defensive_Systems_%26_Threat_Intel-00f0ff?style=flat-square" alt="Focus" />
     <img src="https://img.shields.io/badge/Stack-Rust_%C2%B7_C%2FC%2B%2B_%C2%B7_Python-8b5cf6?style=flat-square" alt="Stack" />
+    <img src="https://img.shields.io/badge/Hardware-Embedded_%26_Robotics-f59e0b?style=flat-square" alt="Embedded" />
     <img src="https://img.shields.io/badge/AI_Agents-MCP_Server_Provider-10b981?style=flat-square" alt="MCP" />
     <img src="https://img.shields.io/badge/Status-🟢_Building_%26_Open_to_Collabs-success?style=flat-square" alt="Status" />
   </p>
@@ -34,6 +35,7 @@
 │ ⚡ RADIX-TRIE LOOKUPS       : O(k) bitwise in-memory traversal (<0.005ms per lookup)       │
 │ 🛡️ CONSENSUS ARCHITECTURE   : VirusTotal-Style 4-Engine Aggregation (Near-Zero FP)         │
 │ 🤖 AGENT THREAT DEFENSE     : Official Model Context Protocol (MCP) Stdio Provider         │
+│ ⚙️ HARDWARE & ROBOTICS      : Bare-metal firmware (C/C++, FreeRTOS, CAN/SPI & sensors)     │
 │ 🍯 CANARY DECOY TRIPWIRES   : Active deception traps on /.env, /.git/HEAD (0% FP)          │
 │ ⚡ SHANNON ENTROPY INSPECT  : Base-2 calculation & exploit signature analyzer (<0.02ms)   │
 │ 🔒 CRYPTOGRAPHIC AUDIT      : SHA-256 Merkle Hash-Chained Ingress Ledger                   │
@@ -45,17 +47,18 @@
 
 ### About Me
 
-Hey, I'm **Iris** (`iriss-dev`). I'm a systems and security developer focused on defensive engineering, real-time threat intelligence, and low-latency infrastructure.
+Hey, I'm **Iris** (`iriss-dev`). I'm a systems developer and defensive engineer working across the full spectrum—from bare-metal embedded firmware and robotics to low-latency network defenses and autonomous AI agents.
 
-Most of my work revolves around building autonomous software that catches and neutralizes attacks before they reach application memory. I write low-level components in **Rust** and **C/C++** when execution time needs to stay under a few microseconds, use **Python** for feed synchronization and forensic data pipelines, and develop high-throughput services with **Node.js** and **SQLite WAL**.
+I have a deep fascination with building things that interact with the physical and digital world with zero margin for error. I write low-level code in **Rust** and **C/C++** when timing needs to be deterministic down to the microsecond (whether that's a microcontroller control loop, a CAN/SPI bus protocol, or an eBPF kernel packet filter). For telemetry, data pipelines, and intelligence analysis, I use **Python**, and for high-throughput service orchestration, **Node.js** and **SQLite WAL**.
 
-Recently, I've been focusing on the intersection of **AI Agents and Cybersecurity**—specifically building zero-trust [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) servers so autonomous coding agents (Cursor, Claude, Windsurf) can verify external URLs, dependencies, and payloads without falling for prompt injections, steganography, or phishing lures.
+Recently, my work spans two major fronts: building high-performance **cybersecurity infrastructure** (like the BlackICE consensus engine and zero-trust [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) servers for AI agents) and exploring **intelligent robotics tooling**—bridging real-time embedded control with autonomous agent architectures.
 
 ---
 
 ### ⚡ What I'm Focused On Right Now
 
 - 🦀 **BlackICE Sentinel & MCP**: Scaling the multi-engine consensus scanner and maintaining the official [blackice-mcp](https://github.com/iriss-dev/blackice/tree/main/integrations/blackice-mcp) server for agentic IDE workflows.
+- ⚙️ **Embedded Tooling & Robotics**: Prototyping low-latency communication bridges between microcontrollers (ARM Cortex-M / ESP32) and autonomous software agents over serial and CAN protocols.
 - 🔬 **Kernel Ingress & eBPF**: Exploring eBPF/XDP zero-copy packet drop filters on Linux to bypass userspace network stack overhead entirely.
 - 🛡️ **TLS Handshake Forensics**: Improving JA4+ fingerprint clustering to correlate distributed bot waves and residential proxy rotations in real time.
 - 🌸 **Koharu Ecosystem**: Developing modular community automation with custom role color blend engines and low-latency interaction handling.
@@ -70,6 +73,9 @@ Recently, I've been focusing on the intersection of **AI Agents and Cybersecurit
 ├─────────────────────────┼────────────────────────────────────────────────────────┤
 │ Low-Level & Systems     │ Rust & C/C++ microsecond parsing, eBPF socket filters, │
 │                         │ raw Linux netlink sockets & kernel netfilter hooks.    │
+├─────────────────────────┼────────────────────────────────────────────────────────┤
+│ Embedded & Robotics     │ Real-time firmware (C/C++ & Rust), FreeRTOS, hardware  │
+│                         │ telemetry, CAN / SPI / I2C protocols & sensor fusion.  │
 ├─────────────────────────┼────────────────────────────────────────────────────────┤
 │ Threat Intel & Python   │ Automated Python pipelines for feed ingestion, ASN/BGP │
 │                         │ prefix aggregation, Tor consensus parsing & triage.    │
@@ -197,6 +203,16 @@ Recently, I've been focusing on the intersection of **AI Agents and Cybersecurit
   <img src="https://img.shields.io/badge/Luau-00A2FF?style=for-the-badge&logo=roblox&logoColor=white" alt="Luau" />
 </p>
 
+#### Embedded, Hardware & Real-Time Systems
+<p align="left">
+  <img src="https://img.shields.io/badge/ARM_Cortex--M-Bare_Metal-0091BD?style=for-the-badge&logo=arm&logoColor=white" alt="ARM" />
+  <img src="https://img.shields.io/badge/FreeRTOS-Real--Time_OS-green?style=for-the-badge" alt="FreeRTOS" />
+  <img src="https://img.shields.io/badge/STM32_/_ESP32-Microcontrollers-E6007A?style=for-the-badge&logo=espressif&logoColor=white" alt="Microcontrollers" />
+  <img src="https://img.shields.io/badge/CAN_/_SPI_/_I2C-Buses-darkblue?style=for-the-badge" alt="Buses" />
+  <img src="https://img.shields.io/badge/Embedded_Rust-no__std-DEA584?style=for-the-badge&logo=rust&logoColor=black" alt="Embedded Rust" />
+  <img src="https://img.shields.io/badge/Sensor_Fusion-Telemetry-black?style=for-the-badge&logo=target" alt="Sensor Fusion" />
+</p>
+
 #### Cybersecurity & Infrastructure
 <p align="left">
   <img src="https://img.shields.io/badge/Threat_Intel-Python_Pipelines-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Threat Intel" />
@@ -242,5 +258,5 @@ Policy: I practice responsible security disclosure. If you discover a vulnerabil
 ---
 
 <div align="center">
-  <sub>Engineered with care · Systems stability & threat defense first 🌸</sub>
+  <sub>Engineered with care · Systems stability, firmware & threat defense first 🌸</sub>
 </div>
