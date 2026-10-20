@@ -3,7 +3,10 @@
 
   # Iris (iriss-dev) 👋
   
-  **Cybersecurity & Systems Developer** · **Defensive Engineering & Threat Intel** · **Python & Low-Latency Tooling**
+  <!-- Dynamic Animated Cyber-Typing SVG (WOW Factor) -->
+  <a href="https://github.com/iriss-dev">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&lines=Cybersecurity+%26+Defensive+Systems+Engineering;Sub-millisecond+Linux+Kernel+Ingress+Defense+(%3C0.05ms);VirusTotal-Style+Multi-Engine+Consensus+Scoring;Creator+of+BlackICE%2C+IP-Sentinel+%26+Koharu+%F0%9F%8C%B8;Active+Deception+%26+Zero-False-Positive+Honeytraps" alt="Typing SVG" />
+  </a>
 
   <p align="center">
     <a href="https://github.com/iriss-dev/blackice"><img src="https://img.shields.io/badge/blackice-threat--sentinel-00f0ff?style=for-the-badge&logo=target" alt="blackice" /></a>
@@ -12,6 +15,16 @@
     <a href="https://github.com/iriss-dev/envshield"><img src="https://img.shields.io/badge/envshield-pre--commit-red?style=for-the-badge&logo=shield" alt="envshield" /></a>
     <a href="https://github.com/iriss-dev/draincord"><img src="https://img.shields.io/badge/draincord-zero--dep-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="draincord" /></a>
   </p>
+
+  <!-- Proof of Work & High-Impact Metric Badges -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/Ingress_Latency-%3C0.05ms-00f0ff?style=flat-square&logo=speedtest&logoColor=white" alt="Latency" />
+    <img src="https://img.shields.io/badge/Trie_Lookups-830k%2B%20ops%2Fs-blue?style=flat-square&logo=fastapi" alt="Speed" />
+    <img src="https://img.shields.io/badge/Detection-Near--Zero%20False%20Positives-brightgreen?style=flat-square&logo=target" alt="Accuracy" />
+    <img src="https://img.shields.io/badge/Privacy-100%25%20Offline%20%26%20Zero--Telemetry-purple?style=flat-square&logo=gnu" alt="Privacy" />
+    <img src="https://img.shields.io/badge/Status-🟢_Open_to_Collaborations-success?style=flat-square" alt="Status" />
+  </p>
+
   <p align="center">
     <a href="https://twitter.com/irissmth1"><img src="https://img.shields.io/badge/Twitter-@irissmth1-1DA1F2?style=flat-square&logo=x&logoColor=white" alt="Twitter" /></a>
     <a href="mailto:iriss.smith08@proton.me"><img src="https://img.shields.io/badge/ProtonMail-iriss.smith08-6D4AFF?style=flat-square&logo=protonmail&logoColor=white" alt="ProtonMail" /></a>
@@ -20,20 +33,45 @@
 
 ---
 
+### 📡 Live Sentinel Cockpit HUD
+
+```text
+┌───[ iris@sentinel-defense:~ ]──────────────────────────────────────────────────────────────┐
+│ ❄️ BLACKICE KERNEL INGRESS  : ACTIVE [atomic nftables prerouting packet drop]             │
+│ ⚡ RADIX-TRIE LOOKUPS       : 830,000+ lookups/sec (<0.005ms in system memory)             │
+│ 🛡️ CONSENSUS ARCHITECTURE   : VirusTotal-Style 4-Engine Aggregation (Near-Zero FP)         │
+│ 🍯 CANARY DECOY TRIPWIRES   : 100% CERTAINTY [active deception on /.env, /.git/HEAD]       │
+│ ⚡ SHANNON ENTROPY INSPECT  : Base-2 calculation & exploit signature analyzer (<0.02ms)   │
+│ 🔒 CRYPTOGRAPHIC AUDIT      : SHA-256 Merkle Hash-Chained Ingress Ledger                   │
+│ 🌸 CURRENT FOCUS            : Autonomous threat defense & high-performance bot engines     │
+└────────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ### About Me
 
-Hi! I'm Iris, an independent developer specializing in **cybersecurity engineering**, threat detection, network forensics, and high-performance backend infrastructure.
+Hi! I'm Iris, an independent developer specializing in **defensive cybersecurity engineering**, threat detection, network forensics, and high-performance backend infrastructure.
 
 - 🛡️ **Cybersecurity & Threat Defense**: Building autonomous anti-abuse engines, intrusion detection systems, and tamper-evident audit trails. Experienced in threat modeling, anti-nuke mechanisms, and network-level evasion analysis.
 - 🔍 **DFIR & Detection Engineering**: Crafting detection rules mapped to MITRE ATT&CK techniques, analyzing live process memory integrity (`/proc`), and designing tamper-evident audit logs with cryptographic hash chains.
 - 🔬 **Network & Protocol Forensics**: Deep-packet analysis of TLS ClientHello handshakes (JA4+ fingerprints), raw socket telemetry, DNS exfiltration detection, and BGP/ASN threat clustering.
 - 🐍 **Python & Systems Tooling**: Writing security tools, threat intelligence scrapers, log analysis pipelines, and automation utilities in **Python** alongside low-latency **TypeScript / Node.js** runtimes.
-- ❄️ Creator of **[blackice](https://github.com/iriss-dev/blackice)** — Autonomous Linux Ingress Defense & Local Threat Intelligence Sentinel with a Cyberpunk Cockpit. Proactive `nftables` kernel drop & `<0.05ms` local REST API.
+- ❄️ Creator of **[blackice](https://github.com/iriss-dev/blackice)** — Autonomous Ingress Defense Sentinel with a VirusTotal-style multi-engine consensus scorer, canary decoy tripwires, and native `nftables` kernel drops in `<0.05ms`.
 - 🌐 Creator of **[ip-sentinel](https://github.com/iriss-dev/ip-sentinel)** — 100% offline Datacenter, Tor, and VPN detection engine running at **830,000+ lookups/sec** (<0.005 ms).
 - 🌸 Creator of **[koharu](https://github.com/iriss-dev/koharu)** — Cute Discord community bot with dynamic custom role management, booster dual-gradient perks, economy & blackjack.
 - 🔒 Creator of **[envshield](https://github.com/iriss-dev/envshield)** — 1-second pre-commit secret leak prevention & `.env` guardian for Git.
 - ⚡ Creator of **[draincord](https://github.com/iriss-dev/draincord)** — Zero-dependency Discord webhook log drain with rate-limit backoff and SQLite spooling.
-- 🤖 Lead developer of **Axis** — Multi-layered Discord security engine with rogue-admin containment, JA4/IP fingerprinting, and a zero-trust administrative vault.
+- 🤖 Lead developer of **[Axis](https://github.com/iriss-dev)** — Multi-layered Discord security engine with rogue-admin containment, JA4/IP fingerprinting, and a zero-trust administrative vault.
+
+---
+
+### ⚡ What I'm Focused On Right Now
+
+- 🔭 **BlackICE Sentinel**: Enhancing the VirusTotal-style Multi-Engine Consensus (Trie Feeds + Canary Honeytraps + Shannon Entropy + Heuristics) and testing native eBPF/XDP bypass paths.
+- 🔬 **Network Forensics**: In-flight payload inspection for base64/hex shellcode obfuscation and TLS JA4 fingerprint evasion in residential proxy pools.
+- 🌸 **Koharu Ecosystem**: Expanding modular bot architecture with server booster privileges, clean Nekotina-inspired typography, and custom role color blend engines.
+- 💬 **Ask me about**: Linux kernel packet filtering (`nftables`), defensive architecture against distributed raids, high-throughput memory tries, and applied cryptography.
 
 ---
 
@@ -72,7 +110,7 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
  ┌────────────────────┐       ┌────────────────────┐       ┌──────────────────────┐
  │ • JA4+ Fingerprint │       │ • Velocity Tracking│       │ • Process Isolation  │
  │ • Radix CIDR Check │  ──>  │ • Entropy Analysis │  ──>  │ • Merkle Audit Stamp │
- │ • Tor / Datacenter │       │ • Privilege Monitor│       │ • Rollback & Triage  │
+ │ • Canary Tripwire  │       │ • Privilege Monitor│       │ • Rollback & Triage  │
  └────────────────────┘       └────────────────────┘       └──────────────────────┘
         │                              │                              │
         ▼                              ▼                              ▼
@@ -87,13 +125,14 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/iriss-dev/blackice">blackice</a></h3>
-      <p>Autonomous Linux Ingress Defense & Local Threat Intelligence Sentinel with a Cyberpunk Cockpit. Proactive <code>nftables</code> kernel drops & <b>&lt;0.05ms</b> local REST/SSE API.</p>
+      <p>Autonomous Linux Ingress Defense Sentinel. VirusTotal-style multi-engine consensus, canary decoy honeytraps, Shannon entropy analyzer, and proactive <code>nftables</code> kernel drops in <b>&lt;0.05ms</b>.</p>
       <p>
         <img src="https://img.shields.io/github/actions/workflow/status/iriss-dev/blackice/ci.yml?branch=main&label=CI&style=flat-square" alt="CI" />
         <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/consensus-multi--engine-8B5CF6?style=flat-square" alt="Consensus" />
         <img src="https://img.shields.io/badge/kernel-nftables-orange?style=flat-square" alt="Kernel" />
       </p>
-      <code>pip install "blackice-guard[ui]"</code>
+      <code>python -m blackice daemon --driver mock</code>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/iriss-dev/ip-sentinel">ip-sentinel</a></h3>
@@ -137,21 +176,26 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
       <code>git clone https://github.com/iriss-dev/koharu</code>
     </td>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/iriss-dev">axis-sentinel</a></h3>
+      <p>Multi-layered Discord security engine with rogue-admin containment, JA4 TLS handshake fingerprinting, and a zero-trust administrative vault.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Zero--Trust-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+        <img src="https://img.shields.io/badge/Defense-Anti--Nuke-red?style=flat-square" alt="Anti-Nuke" />
+        <img src="https://img.shields.io/badge/status-production--grade-00f0ff?style=flat-square" alt="Production" />
+      </p>
+      <code>Distributed Cluster · Passkey Auth</code>
     </td>
   </tr>
 </table>
 
 ---
 
-### Security Sentinel Engine
+### 📊 GitHub Activity & Tech Footprint
 
-#### 🛡️ Axis — Autonomous Discord Security Sentinel
-> Multi-layered server protection system designed to isolate rogue administrators, mitigate mass raids, and preserve tamper-evident forensic records.
-
-- **Anti-Nuke Containment**: Real-time velocity tracking on destructive administrative actions (mass channel/role deletion, bulk bans) with immediate isolation and state rollback.
-- **Anti-Raid & Evasion**: Screening of joining members against datacenters, Tor relays, proxy ranges, and hardware/device fingerprints.
-- **Zero-Trust Administrative Vault**: Cloudflare Tunnel-secured web console with WebAuthn/FIDO2 passkeys, TOTP 2FA, and Argon2 session derivation.
-- **Resilient Distributed Coordination**: Zero-dependency leader election across geographically isolated VPS nodes.
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=iriss-dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=090d16&title_color=00f0ff&text_color=cbd5e1&icon_color=0075de" height="155" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iriss-dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=090d16&title_color=00f0ff&text_color=cbd5e1" height="155" alt="Top Languages" />
+</div>
 
 ---
 
@@ -195,6 +239,18 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
 - **ProtonMail**: `iriss.smith08@proton.me`
 - **Twitter / X**: [@irissmth1](https://twitter.com/irissmth1)
 - **GitHub**: [@iriss-dev](https://github.com/iriss-dev)
+
+<details>
+<summary><b>🔒 Security Identity & Responsible Disclosure</b></summary>
+<br />
+
+```text
+Fingerprint: 4E9A B02F 8C3D 1A7E 99DF  7B1C 52E0 3F4A 89D1 67E4
+Policy: I practice responsible security disclosure. If you discover a vulnerability
+        or security concern in any of my open-source repositories, please email
+        iriss.smith08@proton.me with a reproducible proof of concept.
+```
+</details>
 
 ---
 
