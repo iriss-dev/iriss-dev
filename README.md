@@ -32,6 +32,7 @@
 ```text
 ┌───[ iris@sentinel-defense:~ ]──────────────────────────────────────────────────────────────┐
 │ ❄️ BLACKICE KERNEL INGRESS  : ACTIVE [atomic nftables prerouting packet drop]             │
+│ 🌐 KHORA SPATIAL COMPUTING  : ACTIVE [DCRA 1:1 traversable light & 40kHz ultrasound]      │
 │ ⚡ RADIX-TRIE LOOKUPS       : O(k) bitwise in-memory traversal (<0.005ms per lookup)       │
 │ 🛡️ CONSENSUS ARCHITECTURE   : VirusTotal-Style 4-Engine Aggregation (Near-Zero FP)         │
 │ 🤖 AGENT THREAT DEFENSE     : Official Model Context Protocol (MCP) Stdio Provider         │
@@ -57,6 +58,7 @@ Recently, my work spans two major fronts: building high-performance **cybersecur
 
 ### ⚡ What I'm Focused On Right Now
 
+- 🌐 **KHORA (Spatial Light & Robotics)**: Architecting the open-source pipeline linking non-deterministic AI agents (MCP) to hard real-time kinematics and mid-air tactile holography via DCRA retro-reflection and 40 kHz acoustic beamforming.
 - 🦀 **BlackICE Sentinel & MCP**: Scaling the multi-engine consensus scanner and maintaining the official [blackice-mcp](https://github.com/iriss-dev/blackice/tree/main/integrations/blackice-mcp) server for agentic IDE workflows.
 - ⚙️ **Embedded Tooling & Robotics**: Prototyping low-latency communication bridges between microcontrollers (ARM Cortex-M / ESP32) and autonomous software agents over serial and CAN protocols.
 - 🔬 **Kernel Ingress & eBPF**: Exploring eBPF/XDP zero-copy packet drop filters on Linux to bypass userspace network stack overhead entirely.
@@ -123,6 +125,18 @@ Recently, my work spans two major fronts: building high-performance **cybersecur
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/iriss-dev/khora">khora</a></h3>
+      <p>Deterministic Robotics Kinematics, Spatial Computing & Traversable Light. Generates 1:1 real aerial images in open air via DCRA micro-reflectors combined with 40 kHz ultrasonic radiation pressure for mid-air tactile touch.</p>
+      <p>
+        <img src="https://img.shields.io/badge/RFC-0001%20%7C%200002-00f0ff?style=flat-square" alt="RFC" />
+        <img src="https://img.shields.io/badge/Optics-DCRA%20AIP-blue?style=flat-square" alt="Optics" />
+        <img src="https://img.shields.io/badge/Haptics-40kHz%20Ultrasound-green?style=flat-square" alt="Haptics" />
+        <img src="https://img.shields.io/badge/MCP-Supported-10b981?style=flat-square" alt="MCP" />
+      </p>
+      <p><sub>Air-gapped three-plane architecture separating cognitive AI from hard real-time actuators.</sub></p>
+      <code>python -m khora.mcp_server</code>
+    </td>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/iriss-dev/blackice">blackice</a></h3>
       <p>Autonomous Linux Ingress Defense Sentinel. Features a VirusTotal-style multi-engine consensus scorer, active canary decoy honeytraps, Shannon entropy analyzer, and proactive <code>nftables</code> kernel drops in <b>&lt;0.05ms</b>.</p>
       <p>
@@ -133,17 +147,6 @@ Recently, my work spans two major fronts: building high-performance **cybersecur
       </p>
       <p><sub>Includes official <a href="https://github.com/iriss-dev/blackice/tree/main/integrations/blackice-mcp"><b>blackice-mcp</b></a> server for Cursor, Claude & Windsurf.</sub></p>
       <code>python -m blackice daemon --driver mock</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/iriss-dev/ip-sentinel">ip-sentinel</a></h3>
-      <p>Zero-dependency, offline IP threat intelligence. High-throughput Datacenter, Tor, and VPN detection using bitwise Radix-Trie prefix traversal in <b>&lt;0.005ms</b>.</p>
-      <p>
-        <img src="https://img.shields.io/github/actions/workflow/status/iriss-dev/ip-sentinel/ci.yml?branch=main&label=CI&style=flat-square" alt="CI" />
-        <img src="https://img.shields.io/badge/lookup-O(k)%20Bitwise-00f0ff?style=flat-square" alt="Lookup" />
-        <img src="https://img.shields.io/badge/offline-100%25-success?style=flat-square" alt="Offline" />
-      </p>
-      <p><sub>Compiled in-memory CIDR tree with zero external network dependencies.</sub></p>
-      <code>npx ip-sentinel 104.16.1.1</code>
     </td>
   </tr>
   <tr>
@@ -159,6 +162,19 @@ Recently, my work spans two major fronts: building high-performance **cybersecur
       <code>axis-bot.app · Distributed Cluster</code>
     </td>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/iriss-dev/ip-sentinel">ip-sentinel</a></h3>
+      <p>Zero-dependency, offline IP threat intelligence. High-throughput Datacenter, Tor, and VPN detection using bitwise Radix-Trie prefix traversal in <b>&lt;0.005ms</b>.</p>
+      <p>
+        <img src="https://img.shields.io/github/actions/workflow/status/iriss-dev/ip-sentinel/ci.yml?branch=main&label=CI&style=flat-square" alt="CI" />
+        <img src="https://img.shields.io/badge/lookup-O(k)%20Bitwise-00f0ff?style=flat-square" alt="Lookup" />
+        <img src="https://img.shields.io/badge/offline-100%25-success?style=flat-square" alt="Offline" />
+      </p>
+      <p><sub>Compiled in-memory CIDR tree with zero external network dependencies.</sub></p>
+      <code>npx ip-sentinel 104.16.1.1</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/iriss-dev/koharu">koharu</a></h3>
       <p>Modular community Discord bot engine built with Discord.js v14. Features dynamic custom roles, dual-gradient booster perks, economy system, and event keys.</p>
       <p>
@@ -168,6 +184,12 @@ Recently, my work spans two major fronts: building high-performance **cybersecur
       </p>
       <p><sub>Clean typography, non-blocking asynchronous event pipeline, and persistent SQLite WAL.</sub></p>
       <code>git clone https://github.com/iriss-dev/koharu</code>
+    </td>
+    <td width="50%" valign="top">
+      <!-- Reserved for upcoming foundational release -->
+      <div align="center" style="padding: 24px;">
+        <p><i>More open-source hardware & systems tooling in active research.</i></p>
+      </div>
     </td>
   </tr>
 </table>
