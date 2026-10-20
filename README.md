@@ -5,26 +5,17 @@
   
   **Cybersecurity & Systems Developer** · **Defensive Engineering & Threat Intel** · **Rust, C/C++ & Python Low-Latency Tooling**
 
-  <!-- Dynamic Animated Cyber-Typing SVG (WOW Factor) -->
+  <!-- Animated Terminal Typing SVG -->
   <a href="https://github.com/iriss-dev">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&lines=Cybersecurity+%26+Defensive+Systems+Engineering;Low-Latency+Systems+in+Rust%2C+C%2FC%2B%2B+%26+Python;Sub-millisecond+Linux+Kernel+Ingress+Defense+(%3C0.05ms);VirusTotal-Style+Multi-Engine+Consensus+Scoring;Creator+of+BlackICE%2C+IP-Sentinel+%26+Koharu+%F0%9F%8C%B8;Active+Deception+%26+Zero-False-Positive+Honeytraps" alt="Typing SVG" />
   </a>
 
+  <!-- Curated High-Signal Badges -->
   <p align="center">
-    <a href="https://github.com/iriss-dev/blackice"><img src="https://img.shields.io/badge/blackice-threat--sentinel-00f0ff?style=for-the-badge&logo=target" alt="blackice" /></a>
-    <a href="https://github.com/iriss-dev/ip-sentinel"><img src="https://img.shields.io/badge/ip--sentinel-830k%20ops%2Fs-blue?style=for-the-badge&logo=linux" alt="ip-sentinel" /></a>
-    <a href="https://github.com/iriss-dev/koharu"><img src="https://img.shields.io/badge/koharu-custom--roles%20%26%20economy-F472B6?style=for-the-badge&logo=discord&logoColor=white" alt="koharu" /></a>
-    <a href="https://github.com/iriss-dev/envshield"><img src="https://img.shields.io/badge/envshield-pre--commit-red?style=for-the-badge&logo=shield" alt="envshield" /></a>
-    <a href="https://github.com/iriss-dev/draincord"><img src="https://img.shields.io/badge/draincord-zero--dep-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="draincord" /></a>
-  </p>
-
-  <!-- Proof of Work & High-Impact Metric Badges -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Ingress_Latency-%3C0.05ms-00f0ff?style=flat-square&logo=speedtest&logoColor=white" alt="Latency" />
-    <img src="https://img.shields.io/badge/Trie_Lookups-830k%2B%20ops%2Fs-blue?style=flat-square&logo=fastapi" alt="Speed" />
-    <img src="https://img.shields.io/badge/Detection-Near--Zero%20False%20Positives-brightgreen?style=flat-square&logo=target" alt="Accuracy" />
-    <img src="https://img.shields.io/badge/Privacy-100%25%20Offline%20%26%20Zero--Telemetry-purple?style=flat-square&logo=gnu" alt="Privacy" />
-    <img src="https://img.shields.io/badge/Status-🟢_Open_to_Collaborations-success?style=flat-square" alt="Status" />
+    <img src="https://img.shields.io/badge/Focus-Defensive_Systems_%26_Threat_Intel-00f0ff?style=flat-square" alt="Focus" />
+    <img src="https://img.shields.io/badge/Stack-Rust_%C2%B7_C%2FC%2B%2B_%C2%B7_Python-8b5cf6?style=flat-square" alt="Stack" />
+    <img src="https://img.shields.io/badge/AI_Agents-MCP_Server_Provider-10b981?style=flat-square" alt="MCP" />
+    <img src="https://img.shields.io/badge/Status-🟢_Building_%26_Open_to_Collabs-success?style=flat-square" alt="Status" />
   </p>
 
   <p align="center">
@@ -40,13 +31,13 @@
 ```text
 ┌───[ iris@sentinel-defense:~ ]──────────────────────────────────────────────────────────────┐
 │ ❄️ BLACKICE KERNEL INGRESS  : ACTIVE [atomic nftables prerouting packet drop]             │
-│ ⚡ RADIX-TRIE LOOKUPS       : 830,000+ lookups/sec (<0.005ms in system memory)             │
+│ ⚡ RADIX-TRIE LOOKUPS       : O(k) bitwise in-memory traversal (<0.005ms per lookup)       │
 │ 🛡️ CONSENSUS ARCHITECTURE   : VirusTotal-Style 4-Engine Aggregation (Near-Zero FP)         │
-│ 🍯 CANARY DECOY TRIPWIRES   : 100% CERTAINTY [active deception on /.env, /.git/HEAD]       │
+│ 🤖 AGENT THREAT DEFENSE     : Official Model Context Protocol (MCP) Stdio Provider         │
+│ 🍯 CANARY DECOY TRIPWIRES   : Active deception traps on /.env, /.git/HEAD (0% FP)          │
 │ ⚡ SHANNON ENTROPY INSPECT  : Base-2 calculation & exploit signature analyzer (<0.02ms)   │
 │ 🔒 CRYPTOGRAPHIC AUDIT      : SHA-256 Merkle Hash-Chained Ingress Ledger                   │
 │ 🦀 LOW-LEVEL STACK          : Rust · C/C++ · Python · Linux Kernel Netfilter (eBPF/nft)   │
-│ 🌸 CURRENT FOCUS            : Autonomous threat defense & high-performance bot engines     │
 └────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -54,29 +45,20 @@
 
 ### About Me
 
-Hi! I'm Iris, an independent developer specializing in **defensive cybersecurity engineering**, threat detection, network forensics, and high-performance backend infrastructure.
+Hey, I'm **Iris** (`iriss-dev`). I'm a systems and security developer focused on defensive engineering, real-time threat intelligence, and low-latency infrastructure.
 
-- 🛡️ **Cybersecurity & Threat Defense**: Building autonomous anti-abuse engines, intrusion detection systems, and tamper-evident audit trails. Experienced in threat modeling, anti-nuke mechanisms, and network-level evasion analysis.
-- ⚙️ **Systems Programming & Memory Safety**: Architecting high-performance security tooling, raw socket packet decoders, memory-safe network parsers, and kernel probes in **Rust**, **C / C++**, and **Python** alongside low-latency **Node.js** runtimes.
-- 🔍 **DFIR & Detection Engineering**: Crafting detection rules mapped to MITRE ATT&CK techniques, analyzing live process memory integrity (`/proc`), and designing tamper-evident audit logs with cryptographic hash chains.
-- 🔬 **Network & Protocol Forensics**: Deep-packet analysis of TLS ClientHello handshakes (JA4+ fingerprints), raw socket telemetry, DNS exfiltration detection, and BGP/ASN threat clustering.
-- ❄️ Creator of **[blackice](https://github.com/iriss-dev/blackice)** — Autonomous Ingress Defense Sentinel with a VirusTotal-style multi-engine consensus scorer, canary decoy tripwires, and native `nftables` kernel drops in `<0.05ms`.
-- 🤖 Creator of **[blackice-mcp](https://github.com/iriss-dev/blackice)** — Official Model Context Protocol (MCP) Server empowering AI Agents (Cursor, Claude, Windsurf) with zero-trust threat consensus, phishing URL defense, and prompt-injection tripwires.
-- 🌐 Creator of **[ip-sentinel](https://github.com/iriss-dev/ip-sentinel)** — 100% offline Datacenter, Tor, and VPN detection engine running at **830,000+ lookups/sec** (<0.005 ms).
-- 🌸 Creator of **[koharu](https://github.com/iriss-dev/koharu)** — Cute Discord community bot with dynamic custom role management, booster dual-gradient perks, economy & blackjack.
-- 🔒 Creator of **[envshield](https://github.com/iriss-dev/envshield)** — 1-second pre-commit secret leak prevention & `.env` guardian for Git.
-- ⚡ Creator of **[draincord](https://github.com/iriss-dev/draincord)** — Zero-dependency Discord webhook log drain with rate-limit backoff and SQLite spooling.
-- 🤖 Lead developer of **[Axis](https://axis-bot.app)** — Multi-layered Discord security engine with rogue-admin containment, JA4/IP fingerprinting, and a zero-trust administrative vault.
+Most of my work revolves around building autonomous software that catches and neutralizes attacks before they reach application memory. I write low-level components in **Rust** and **C/C++** when execution time needs to stay under a few microseconds, use **Python** for feed synchronization and forensic data pipelines, and develop high-throughput services with **Node.js** and **SQLite WAL**.
+
+Recently, I've been focusing on the intersection of **AI Agents and Cybersecurity**—specifically building zero-trust [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) servers so autonomous coding agents (Cursor, Claude, Windsurf) can verify external URLs, dependencies, and payloads without falling for prompt injections, steganography, or phishing lures.
 
 ---
 
 ### ⚡ What I'm Focused On Right Now
 
-- 🦀 **Rust & Low-Level Kernels**: Exploring Rust and C/C++ bindings for high-throughput CIDR radix-tree lookups and eBPF/XDP zero-copy packet ingress filtering.
-- 🔭 **BlackICE Sentinel**: Enhancing the VirusTotal-style Multi-Engine Consensus (Trie Feeds + Canary Honeytraps + Shannon Entropy + Heuristics) and testing native eBPF/XDP bypass paths.
-- 🔬 **Network Forensics**: In-flight payload inspection for base64/hex shellcode obfuscation and TLS JA4 fingerprint evasion in residential proxy pools.
-- 🌸 **Koharu Ecosystem**: Expanding modular bot architecture with server booster privileges, clean Nekotina-inspired typography, and custom role color blend engines.
-- 💬 **Ask me about**: Rust memory safety, C/C++ systems engineering, Linux kernel packet filtering (`nftables`), defensive architecture against distributed raids, and applied cryptography.
+- 🦀 **BlackICE Sentinel & MCP**: Scaling the multi-engine consensus scanner and maintaining the official [blackice-mcp](https://github.com/iriss-dev/blackice/tree/main/integrations/blackice-mcp) server for agentic IDE workflows.
+- 🔬 **Kernel Ingress & eBPF**: Exploring eBPF/XDP zero-copy packet drop filters on Linux to bypass userspace network stack overhead entirely.
+- 🛡️ **TLS Handshake Forensics**: Improving JA4+ fingerprint clustering to correlate distributed bot waves and residential proxy rotations in real time.
+- 🌸 **Koharu Ecosystem**: Developing modular community automation with custom role color blend engines and low-latency interaction handling.
 
 ---
 
@@ -130,74 +112,63 @@ Hi! I'm Iris, an independent developer specializing in **defensive cybersecurity
 
 ---
 
-### Open Source Projects
+### Featured Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/iriss-dev/blackice">blackice</a></h3>
-      <p>Autonomous Linux Ingress Defense Sentinel. VirusTotal-style multi-engine consensus, canary decoy honeytraps, Shannon entropy analyzer, and proactive <code>nftables</code> kernel drops in <b>&lt;0.05ms</b>.</p>
+      <p>Autonomous Linux Ingress Defense Sentinel. Features a VirusTotal-style multi-engine consensus scorer, active canary decoy honeytraps, Shannon entropy analyzer, and proactive <code>nftables</code> kernel drops in <b>&lt;0.05ms</b>.</p>
       <p>
         <img src="https://img.shields.io/github/actions/workflow/status/iriss-dev/blackice/ci.yml?branch=main&label=CI&style=flat-square" alt="CI" />
         <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/consensus-multi--engine-8B5CF6?style=flat-square" alt="Consensus" />
+        <img src="https://img.shields.io/badge/MCP-Supported-10b981?style=flat-square" alt="MCP" />
         <img src="https://img.shields.io/badge/kernel-nftables-orange?style=flat-square" alt="Kernel" />
       </p>
+      <p><sub>Includes official <a href="https://github.com/iriss-dev/blackice/tree/main/integrations/blackice-mcp"><b>blackice-mcp</b></a> server for Cursor, Claude & Windsurf.</sub></p>
       <code>python -m blackice daemon --driver mock</code>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/iriss-dev/ip-sentinel">ip-sentinel</a></h3>
-      <p>Zero-dependency, offline IP intelligence. Instant Datacenter, Tor, and VPN detection with radix-tree CIDR matching in <b>&lt;0.005 ms</b>.</p>
+      <p>Zero-dependency, offline IP threat intelligence. High-throughput Datacenter, Tor, and VPN detection using bitwise Radix-Trie prefix traversal in <b>&lt;0.005ms</b>.</p>
       <p>
         <img src="https://img.shields.io/github/actions/workflow/status/iriss-dev/ip-sentinel/ci.yml?branch=main&label=CI&style=flat-square" alt="CI" />
-        <img src="https://img.shields.io/badge/speed-830k%2Fsec-success?style=flat-square" alt="Speed" />
+        <img src="https://img.shields.io/badge/lookup-O(k)%20Bitwise-00f0ff?style=flat-square" alt="Lookup" />
+        <img src="https://img.shields.io/badge/offline-100%25-success?style=flat-square" alt="Offline" />
       </p>
+      <p><sub>Compiled in-memory CIDR tree with zero external network dependencies.</sub></p>
       <code>npx ip-sentinel 104.16.1.1</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/iriss-dev/envshield">envshield</a></h3>
-      <p>1-second Git pre-commit hook and CI scanner that prevents leaked <code>.env</code> files, Discord tokens, OpenAI keys, and AWS credentials in <b>&lt;15ms</b>.</p>
+      <h3><a href="https://axis-bot.app">Axis Core</a></h3>
+      <p>Multi-layered community security engine featuring rogue-admin containment, JA4 TLS handshake fingerprinting, blind HMAC account linkage, and a zero-trust administrative vault.</p>
       <p>
-        <img src="https://img.shields.io/github/actions/workflow/status/iriss-dev/envshield/ci.yml?branch=main&label=CI&style=flat-square" alt="CI" />
-        <img src="https://img.shields.io/badge/setup-1%20sec-blue?style=flat-square" alt="Setup" />
+        <img src="https://img.shields.io/badge/Security-Zero--Trust-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Zero-Trust" />
+        <img src="https://img.shields.io/badge/Defense-Anti--Nuke-red?style=flat-square" alt="Anti-Nuke" />
+        <img src="https://img.shields.io/badge/status-production-00f0ff?style=flat-square" alt="Status" />
       </p>
-      <code>npx envshield install</code>
+      <p><sub>Protects large communities with differential damage scoring and automated state rollback.</sub></p>
+      <code>axis-bot.app · Distributed Cluster</code>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/iriss-dev/draincord">draincord</a></h3>
-      <p>Resilient Discord webhook log drain with automatic batching, rate-limit backoff, and persistent SQLite WAL spooling across crashes.</p>
-      <p>
-        <img src="https://img.shields.io/github/actions/workflow/status/iriss-dev/draincord/ci.yml?branch=main&label=CI&style=flat-square" alt="CI" />
-        <img src="https://img.shields.io/badge/deps-zero-brightgreen?style=flat-square" alt="Deps" />
-      </p>
-      <code>npm install draincord</code>
-    </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/iriss-dev/koharu">koharu</a></h3>
-      <p>A cute, feature-packed community Discord bot with dynamic custom roles, dual-gradient booster perks, economy, blackjack & event keys.</p>
+      <p>Modular community Discord bot engine built with Discord.js v14. Features dynamic custom roles, dual-gradient booster perks, economy system, and event keys.</p>
       <p>
         <img src="https://img.shields.io/github/actions/workflow/status/iriss-dev/koharu/ci.yml?branch=main&label=CI&style=flat-square" alt="CI" />
+        <img src="https://img.shields.io/badge/runtime-Node.js%2022-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node" />
         <img src="https://img.shields.io/badge/discord.js-v14-F472B6?style=flat-square&logo=discord&logoColor=white" alt="Discord.js" />
-        <img src="https://img.shields.io/badge/license-GPL--3.0-EC4899?style=flat-square" alt="License" />
       </p>
+      <p><sub>Clean typography, non-blocking asynchronous event pipeline, and persistent SQLite WAL.</sub></p>
       <code>git clone https://github.com/iriss-dev/koharu</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://axis-bot.app">axis-sentinel</a></h3>
-      <p>Multi-layered Discord security engine with rogue-admin containment, JA4 TLS handshake fingerprinting, and a zero-trust administrative vault.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Zero--Trust-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
-        <img src="https://img.shields.io/badge/Defense-Anti--Nuke-red?style=flat-square" alt="Anti-Nuke" />
-        <img src="https://img.shields.io/badge/status-production--grade-00f0ff?style=flat-square" alt="Production" />
-      </p>
-      <code>axis-bot.app · Distributed Cluster</code>
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <sub><b>Other Open-Source Utilities:</b> <a href="https://github.com/iriss-dev/envshield"><code>envshield</code></a> (Git pre-commit secret scanner) · <a href="https://github.com/iriss-dev/draincord"><code>draincord</code></a> (Zero-dependency Discord webhook log drain with SQLite spooling)</sub>
+</p>
 
 ---
 
