@@ -8,6 +8,7 @@
   <p align="center">
     <a href="https://github.com/iriss-dev/blackice"><img src="https://img.shields.io/badge/blackice-threat--sentinel-00f0ff?style=for-the-badge&logo=target" alt="blackice" /></a>
     <a href="https://github.com/iriss-dev/ip-sentinel"><img src="https://img.shields.io/badge/ip--sentinel-830k%20ops%2Fs-blue?style=for-the-badge&logo=linux" alt="ip-sentinel" /></a>
+    <a href="https://github.com/iriss-dev/koharu"><img src="https://img.shields.io/badge/koharu-custom--roles%20%26%20economy-F472B6?style=for-the-badge&logo=discord&logoColor=white" alt="koharu" /></a>
     <a href="https://github.com/iriss-dev/envshield"><img src="https://img.shields.io/badge/envshield-pre--commit-red?style=for-the-badge&logo=shield" alt="envshield" /></a>
     <a href="https://github.com/iriss-dev/draincord"><img src="https://img.shields.io/badge/draincord-zero--dep-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="draincord" /></a>
   </p>
@@ -29,6 +30,7 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
 - 🐍 **Python & Systems Tooling**: Writing security tools, threat intelligence scrapers, log analysis pipelines, and automation utilities in **Python** alongside low-latency **TypeScript / Node.js** runtimes.
 - ❄️ Creator of **[blackice](https://github.com/iriss-dev/blackice)** — Autonomous Linux Ingress Defense & Local Threat Intelligence Sentinel with a Cyberpunk Cockpit. Proactive `nftables` kernel drop & `<0.05ms` local REST API.
 - 🌐 Creator of **[ip-sentinel](https://github.com/iriss-dev/ip-sentinel)** — 100% offline Datacenter, Tor, and VPN detection engine running at **830,000+ lookups/sec** (<0.005 ms).
+- 🌸 Creator of **[koharu](https://github.com/iriss-dev/koharu)** — Cute Discord community bot with dynamic custom role management, booster dual-gradient perks, economy & blackjack.
 - 🔒 Creator of **[envshield](https://github.com/iriss-dev/envshield)** — 1-second pre-commit secret leak prevention & `.env` guardian for Git.
 - ⚡ Creator of **[draincord](https://github.com/iriss-dev/draincord)** — Zero-dependency Discord webhook log drain with rate-limit backoff and SQLite spooling.
 - 🤖 Lead developer of **Axis** — Multi-layered Discord security engine with rogue-admin containment, JA4/IP fingerprinting, and a zero-trust administrative vault.
@@ -121,6 +123,20 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
         <img src="https://img.shields.io/badge/deps-zero-brightgreen?style=flat-square" alt="Deps" />
       </p>
       <code>npm install draincord</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/iriss-dev/koharu">koharu</a></h3>
+      <p>A cute, feature-packed community Discord bot with dynamic custom roles, dual-gradient booster perks, economy, blackjack & event keys.</p>
+      <p>
+        <img src="https://img.shields.io/github/actions/workflow/status/iriss-dev/koharu/ci.yml?branch=main&label=CI&style=flat-square" alt="CI" />
+        <img src="https://img.shields.io/badge/discord.js-v14-F472B6?style=flat-square&logo=discord&logoColor=white" alt="Discord.js" />
+        <img src="https://img.shields.io/badge/license-GPL--3.0-EC4899?style=flat-square" alt="License" />
+      </p>
+      <code>git clone https://github.com/iriss-dev/koharu</code>
+    </td>
+    <td width="50%" valign="top">
     </td>
   </tr>
 </table>
