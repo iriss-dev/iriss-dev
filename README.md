@@ -3,7 +3,7 @@
 
   # Iris (iriss-dev) 👋
   
-  **Backend & Security Systems Developer** · **Developer Ergonomics** · **High-Throughput Tooling**
+  **Cybersecurity & Systems Developer** · **Defensive Engineering & Threat Intel** · **Python & Low-Latency Tooling**
 
   <p align="center">
     <a href="https://github.com/iriss-dev/ip-sentinel"><img src="https://img.shields.io/badge/ip--sentinel-830k%20ops%2Fs-blue?style=for-the-badge&logo=target" alt="ip-sentinel" /></a>
@@ -20,17 +20,38 @@
 
 ### About Me
 
-Hi! I'm Iris, an independent developer focusing on backend infrastructure, zero-dependency utility libraries, and high-concurrency security systems.
+Hi! I'm Iris, an independent developer specializing in **cybersecurity engineering**, threat detection, network forensics, and high-performance backend infrastructure.
 
+- 🛡️ **Cybersecurity & Threat Defense**: Building autonomous anti-abuse engines, intrusion detection systems, and tamper-evident audit trails. Experienced in threat modeling, anti-nuke mechanisms, and network-level evasion analysis.
+- 🐍 **Python & Systems Tooling**: Writing security tools, threat intelligence scrapers, log analysis pipelines, and automation utilities in **Python** alongside low-latency **TypeScript / Node.js** runtimes.
 - 🌐 Creator of **[ip-sentinel](https://github.com/iriss-dev/ip-sentinel)** — 100% offline Datacenter, Tor, and VPN detection engine running at **830,000+ lookups/sec** (<0.005 ms).
-- 🛡️ Creator of **[envshield](https://github.com/iriss-dev/envshield)** — 1-second pre-commit secret leak prevention & `.env` guardian for Git.
+- 🔒 Creator of **[envshield](https://github.com/iriss-dev/envshield)** — 1-second pre-commit secret leak prevention & `.env` guardian for Git.
 - ⚡ Creator of **[draincord](https://github.com/iriss-dev/draincord)** — Zero-dependency Discord webhook log drain with rate-limit backoff and SQLite spooling.
-- 🤖 Lead developer of **Axis** — Autonomous Discord security bot with anti-nuke triggers, raid mitigation, device/IP ban-evasion heuristics, and a zero-trust web panel.
-- ⚙️ Stack & Philosophy: Zero external dependencies where possible, strict TypeScript, Radix tries, SQLite WAL persistence, and Linux servers.
+- 🤖 Lead developer of **Axis** — Multi-layered Discord security engine with rogue-admin containment, JA4/IP fingerprinting, and a zero-trust administrative vault.
 
 ---
 
-### Open Source Highlights
+### Cybersecurity & Defensive Engineering
+
+```text
+┌─────────────────────────┬────────────────────────────────────────────────────────┐
+│ Area                    │ Focus & Implementation                                  │
+├─────────────────────────┼────────────────────────────────────────────────────────┤
+│ Anti-Abuse & Forensics  │ Radix-tree CIDR matching, Tor exit node heuristics,    │
+│                         │ device fingerprinting, and ban-evasion detection.       │
+├─────────────────────────┼────────────────────────────────────────────────────────┤
+│ Applied Cryptography    │ Peppered salted hashing (Argon2 / SHA-256), blind      │
+│                         │ signatures, and Merkle-tree hash-chained audit logs.   │
+├─────────────────────────┼────────────────────────────────────────────────────────┤
+│ System Hardening        │ Zero-open-port architectures via Cloudflare Tunnels,    │
+│                         │ systemd process sandboxing, UFW isolation, and pre-git │
+│                         │ secret leak interception.                              │
+└─────────────────────────┴────────────────────────────────────────────────────────┘
+```
+
+---
+
+### Open Source Projects
 
 <table>
   <tr>
@@ -66,30 +87,38 @@ Hi! I'm Iris, an independent developer focusing on backend infrastructure, zero-
 
 ---
 
-### Core Security Engine
+### Security Sentinel Engine
 
 #### 🛡️ Axis — Autonomous Discord Security Sentinel
 > Multi-layered server protection system designed to isolate rogue administrators, mitigate mass raids, and preserve tamper-evident forensic records.
 
-- **Anti-Nuke Engine**: Threshold-based action tracking (bulk channel/role deletions, mass bans) with instant rogue admin isolation and rollback.
-- **Anti-Raid & Evasion**: Real-time screening of new members with VPN/proxy heuristics, Tor exit node detection, and hardware fingerprint checks.
-- **Zero-Trust Web Portal**: Cloudflare Tunnel-secured web dashboard and verification portal with MFA and Argon2-hashed sessions.
-- **Dual-Node Coordination**: Leased leader-election protocol across geographically separate VPS instances to prevent duplicate actions.
+- **Anti-Nuke Containment**: Real-time velocity tracking on destructive administrative actions (mass channel/role deletion, bulk bans) with immediate isolation and state rollback.
+- **Anti-Raid & Evasion**: Screening of joining members against datacenters, Tor relays, proxy ranges, and hardware/device fingerprints.
+- **Zero-Trust Administrative Vault**: Cloudflare Tunnel-secured web console with WebAuthn/FIDO2 passkeys, TOTP 2FA, and Argon2 session derivation.
+- **Resilient Distributed Coordination**: Zero-dependency leader election across geographically isolated VPS nodes.
 
 ---
 
 ### Skills & Technologies
 
+#### Languages & Core
 <p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
   <img src="https://img.shields.io/badge/Luau-00A2FF?style=for-the-badge&logo=roblox&logoColor=white" alt="Luau" />
+</p>
+
+#### Cybersecurity & Infrastructure
+<p align="left">
+  <img src="https://img.shields.io/badge/Cybersecurity-Defensive_Ops-red?style=for-the-badge&logo=target" alt="Cybersecurity" />
+  <img src="https://img.shields.io/badge/Applied_Cryptography-Ed25519_/_Argon2-black?style=for-the-badge&logo=letsencrypt" alt="Cryptography" />
+  <img src="https://img.shields.io/badge/Linux_Hardening-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Cloudflare_Zero_Trust-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/SQLite_WAL-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
 </p>
 
 ---
@@ -103,5 +132,5 @@ Hi! I'm Iris, an independent developer focusing on backend infrastructure, zero-
 ---
 
 <div align="center">
-  <sub>Engineered with care · Systems stability first 🌸</sub>
+  <sub>Engineered with care · Systems stability & threat defense first 🌸</sub>
 </div>
