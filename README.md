@@ -65,7 +65,7 @@ Hi! I'm Iris, an independent developer specializing in **defensive cybersecurity
 - 🌸 Creator of **[koharu](https://github.com/iriss-dev/koharu)** — Cute Discord community bot with dynamic custom role management, booster dual-gradient perks, economy & blackjack.
 - 🔒 Creator of **[envshield](https://github.com/iriss-dev/envshield)** — 1-second pre-commit secret leak prevention & `.env` guardian for Git.
 - ⚡ Creator of **[draincord](https://github.com/iriss-dev/draincord)** — Zero-dependency Discord webhook log drain with rate-limit backoff and SQLite spooling.
-- 🤖 Lead developer of **[Axis](https://github.com/iriss-dev)** — Multi-layered Discord security engine with rogue-admin containment, JA4/IP fingerprinting, and a zero-trust administrative vault.
+- 🤖 Lead developer of **[Axis](https://axis-bot.app)** — Multi-layered Discord security engine with rogue-admin containment, JA4/IP fingerprinting, and a zero-trust administrative vault.
 
 ---
 
@@ -183,14 +183,14 @@ Hi! I'm Iris, an independent developer specializing in **defensive cybersecurity
       <code>git clone https://github.com/iriss-dev/koharu</code>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/iriss-dev">axis-sentinel</a></h3>
+      <h3><a href="https://axis-bot.app">axis-sentinel</a></h3>
       <p>Multi-layered Discord security engine with rogue-admin containment, JA4 TLS handshake fingerprinting, and a zero-trust administrative vault.</p>
       <p>
         <img src="https://img.shields.io/badge/Zero--Trust-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
         <img src="https://img.shields.io/badge/Defense-Anti--Nuke-red?style=flat-square" alt="Anti-Nuke" />
         <img src="https://img.shields.io/badge/status-production--grade-00f0ff?style=flat-square" alt="Production" />
       </p>
-      <code>Distributed Cluster · Passkey Auth</code>
+      <code>axis-bot.app · Distributed Cluster</code>
     </td>
   </tr>
 </table>
