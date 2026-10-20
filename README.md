@@ -3,9 +3,11 @@
 
   # Iris (iriss-dev) 👋
   
+  **Cybersecurity & Systems Developer** · **Defensive Engineering & Threat Intel** · **Rust, C/C++ & Python Low-Latency Tooling**
+
   <!-- Dynamic Animated Cyber-Typing SVG (WOW Factor) -->
   <a href="https://github.com/iriss-dev">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&lines=Cybersecurity+%26+Defensive+Systems+Engineering;Sub-millisecond+Linux+Kernel+Ingress+Defense+(%3C0.05ms);VirusTotal-Style+Multi-Engine+Consensus+Scoring;Creator+of+BlackICE%2C+IP-Sentinel+%26+Koharu+%F0%9F%8C%B8;Active+Deception+%26+Zero-False-Positive+Honeytraps" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&lines=Cybersecurity+%26+Defensive+Systems+Engineering;Low-Latency+Systems+in+Rust%2C+C%2FC%2B%2B+%26+Python;Sub-millisecond+Linux+Kernel+Ingress+Defense+(%3C0.05ms);VirusTotal-Style+Multi-Engine+Consensus+Scoring;Creator+of+BlackICE%2C+IP-Sentinel+%26+Koharu+%F0%9F%8C%B8;Active+Deception+%26+Zero-False-Positive+Honeytraps" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -43,6 +45,7 @@
 │ 🍯 CANARY DECOY TRIPWIRES   : 100% CERTAINTY [active deception on /.env, /.git/HEAD]       │
 │ ⚡ SHANNON ENTROPY INSPECT  : Base-2 calculation & exploit signature analyzer (<0.02ms)   │
 │ 🔒 CRYPTOGRAPHIC AUDIT      : SHA-256 Merkle Hash-Chained Ingress Ledger                   │
+│ 🦀 LOW-LEVEL STACK          : Rust · C/C++ · Python · Linux Kernel Netfilter (eBPF/nft)   │
 │ 🌸 CURRENT FOCUS            : Autonomous threat defense & high-performance bot engines     │
 └────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -54,9 +57,9 @@
 Hi! I'm Iris, an independent developer specializing in **defensive cybersecurity engineering**, threat detection, network forensics, and high-performance backend infrastructure.
 
 - 🛡️ **Cybersecurity & Threat Defense**: Building autonomous anti-abuse engines, intrusion detection systems, and tamper-evident audit trails. Experienced in threat modeling, anti-nuke mechanisms, and network-level evasion analysis.
+- ⚙️ **Systems Programming & Memory Safety**: Architecting high-performance security tooling, raw socket packet decoders, memory-safe network parsers, and kernel probes in **Rust**, **C / C++**, and **Python** alongside low-latency **Node.js** runtimes.
 - 🔍 **DFIR & Detection Engineering**: Crafting detection rules mapped to MITRE ATT&CK techniques, analyzing live process memory integrity (`/proc`), and designing tamper-evident audit logs with cryptographic hash chains.
 - 🔬 **Network & Protocol Forensics**: Deep-packet analysis of TLS ClientHello handshakes (JA4+ fingerprints), raw socket telemetry, DNS exfiltration detection, and BGP/ASN threat clustering.
-- 🐍 **Python & Systems Tooling**: Writing security tools, threat intelligence scrapers, log analysis pipelines, and automation utilities in **Python** alongside low-latency **TypeScript / Node.js** runtimes.
 - ❄️ Creator of **[blackice](https://github.com/iriss-dev/blackice)** — Autonomous Ingress Defense Sentinel with a VirusTotal-style multi-engine consensus scorer, canary decoy tripwires, and native `nftables` kernel drops in `<0.05ms`.
 - 🌐 Creator of **[ip-sentinel](https://github.com/iriss-dev/ip-sentinel)** — 100% offline Datacenter, Tor, and VPN detection engine running at **830,000+ lookups/sec** (<0.005 ms).
 - 🌸 Creator of **[koharu](https://github.com/iriss-dev/koharu)** — Cute Discord community bot with dynamic custom role management, booster dual-gradient perks, economy & blackjack.
@@ -68,10 +71,11 @@ Hi! I'm Iris, an independent developer specializing in **defensive cybersecurity
 
 ### ⚡ What I'm Focused On Right Now
 
+- 🦀 **Rust & Low-Level Kernels**: Exploring Rust and C/C++ bindings for high-throughput CIDR radix-tree lookups and eBPF/XDP zero-copy packet ingress filtering.
 - 🔭 **BlackICE Sentinel**: Enhancing the VirusTotal-style Multi-Engine Consensus (Trie Feeds + Canary Honeytraps + Shannon Entropy + Heuristics) and testing native eBPF/XDP bypass paths.
 - 🔬 **Network Forensics**: In-flight payload inspection for base64/hex shellcode obfuscation and TLS JA4 fingerprint evasion in residential proxy pools.
 - 🌸 **Koharu Ecosystem**: Expanding modular bot architecture with server booster privileges, clean Nekotina-inspired typography, and custom role color blend engines.
-- 💬 **Ask me about**: Linux kernel packet filtering (`nftables`), defensive architecture against distributed raids, high-throughput memory tries, and applied cryptography.
+- 💬 **Ask me about**: Rust memory safety, C/C++ systems engineering, Linux kernel packet filtering (`nftables`), defensive architecture against distributed raids, and applied cryptography.
 
 ---
 
@@ -80,6 +84,9 @@ Hi! I'm Iris, an independent developer specializing in **defensive cybersecurity
 ```text
 ┌─────────────────────────┬────────────────────────────────────────────────────────┐
 │ Domain                  │ Focus & Production Implementation                      │
+├─────────────────────────┼────────────────────────────────────────────────────────┤
+│ Low-Level & Systems     │ Rust & C/C++ microsecond parsing, eBPF socket filters, │
+│                         │ raw Linux netlink sockets & kernel netfilter hooks.    │
 ├─────────────────────────┼────────────────────────────────────────────────────────┤
 │ Threat Intel & Python   │ Automated Python pipelines for feed ingestion, ASN/BGP │
 │                         │ prefix aggregation, Tor consensus parsing & triage.    │
@@ -201,12 +208,16 @@ Hi! I'm Iris, an independent developer specializing in **defensive cybersecurity
 
 ### Skills & Technologies
 
-#### Languages & Core
+#### Systems & Languages
 <p align="left">
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/x86__64_ASM-111111?style=for-the-badge&logo=target&logoColor=00f0ff" alt="x86_64 ASM" />
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
   <img src="https://img.shields.io/badge/Luau-00A2FF?style=for-the-badge&logo=roblox&logoColor=white" alt="Luau" />
 </p>
@@ -222,14 +233,15 @@ Hi! I'm Iris, an independent developer specializing in **defensive cybersecurity
   <img src="https://img.shields.io/badge/SQLite_WAL-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
 </p>
 
-#### Security Analysis & Tooling
+#### Security Analysis, Compilers & Tooling
 <p align="left">
+  <img src="https://img.shields.io/badge/LLVM_/_Clang-Compiler_Ops-262626?style=for-the-badge&logo=llvm&logoColor=white" alt="LLVM" />
+  <img src="https://img.shields.io/badge/eBPF_/_Seccomp-Kernel_Filters-black?style=for-the-badge&logo=linux&logoColor=white" alt="eBPF" />
+  <img src="https://img.shields.io/badge/Ghidra-Binary_Triage-blueviolet?style=for-the-badge&logo=target" alt="Ghidra" />
   <img src="https://img.shields.io/badge/Wireshark-PCAP_Forensics-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
   <img src="https://img.shields.io/badge/Scapy-Packet_Crafting-red?style=for-the-badge&logo=python&logoColor=white" alt="Scapy" />
-  <img src="https://img.shields.io/badge/Ghidra-Binary_Triage-blueviolet?style=for-the-badge&logo=target" alt="Ghidra" />
   <img src="https://img.shields.io/badge/Suricata-IDS_/_IPS-brightgreen?style=for-the-badge&logo=target" alt="Suricata" />
   <img src="https://img.shields.io/badge/Burp_Suite-Security_Testing-orange?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
-  <img src="https://img.shields.io/badge/eBPF_/_Seccomp-Kernel_Filters-black?style=for-the-badge&logo=linux&logoColor=white" alt="eBPF" />
 </p>
 
 ---
