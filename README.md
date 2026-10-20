@@ -23,6 +23,8 @@
 Hi! I'm Iris, an independent developer specializing in **cybersecurity engineering**, threat detection, network forensics, and high-performance backend infrastructure.
 
 - 🛡️ **Cybersecurity & Threat Defense**: Building autonomous anti-abuse engines, intrusion detection systems, and tamper-evident audit trails. Experienced in threat modeling, anti-nuke mechanisms, and network-level evasion analysis.
+- 🔍 **DFIR & Detection Engineering**: Crafting detection rules mapped to MITRE ATT&CK techniques, analyzing live process memory integrity (`/proc`), and designing tamper-evident audit logs with cryptographic hash chains.
+- 🔬 **Network & Protocol Forensics**: Deep-packet analysis of TLS ClientHello handshakes (JA4+ fingerprints), raw socket telemetry, DNS exfiltration detection, and BGP/ASN threat clustering.
 - 🐍 **Python & Systems Tooling**: Writing security tools, threat intelligence scrapers, log analysis pipelines, and automation utilities in **Python** alongside low-latency **TypeScript / Node.js** runtimes.
 - 🌐 Creator of **[ip-sentinel](https://github.com/iriss-dev/ip-sentinel)** — 100% offline Datacenter, Tor, and VPN detection engine running at **830,000+ lookups/sec** (<0.005 ms).
 - 🔒 Creator of **[envshield](https://github.com/iriss-dev/envshield)** — 1-second pre-commit secret leak prevention & `.env` guardian for Git.
@@ -37,21 +39,40 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
 ┌─────────────────────────┬────────────────────────────────────────────────────────┐
 │ Domain                  │ Focus & Production Implementation                      │
 ├─────────────────────────┼────────────────────────────────────────────────────────┤
-│ Threat Intel & Python   │ Automated Python scrapers & parsers for threat feeds,  │
-│                         │ BGP/ASN aggregation, Tor consensus sync & log triage.  │
+│ Threat Intel & Python   │ Automated Python pipelines for feed ingestion, ASN/BGP │
+│                         │ prefix aggregation, Tor consensus parsing & triage.    │
 ├─────────────────────────┼────────────────────────────────────────────────────────┤
-│ Anti-Abuse & Forensics  │ Radix-tree bitwise CIDR matching, JA4 fingerprinting,  │
+│ Detection & MITRE ATT&CK│ Real-time detection engineering mapped to adversary    │
+│                         │ TTPs: credential dumping, persistence, C2 & evasion.   │
+├─────────────────────────┼────────────────────────────────────────────────────────┤
+│ Anti-Abuse & Forensics  │ Radix-tree bitwise CIDR matching, JA4/TLS handshakes,  │
 │                         │ device posture checks, velocity gates & ban evasion.   │
+├─────────────────────────┼────────────────────────────────────────────────────────┤
+│ Binary Triage & AppSec  │ Shannon entropy scanning, AST static secret detection, │
+│                         │ ELF/PE header inspection & anti-tampering heuristics.  │
 ├─────────────────────────┼────────────────────────────────────────────────────────┤
 │ Applied Cryptography    │ Argon2id / SHA-256 peppered hashing, blind signatures, │
 │                         │ Ed25519 payload signing & Merkle-tree hash audit logs. │
 ├─────────────────────────┼────────────────────────────────────────────────────────┤
-│ System Hardening        │ Zero-open-port via Cloudflare Tunnels, systemd cgroup  │
-│                         │ sandboxing, UFW isolation & pre-commit leak blockers.  │
+│ DFIR & Memory Integrity │ Live process triage (/proc), memory map inspection,    │
+│                         │ forensic timeline reconstruction & audit trail stamps. │
 ├─────────────────────────┼────────────────────────────────────────────────────────┤
-│ AppSec & Static Triage  │ Shannon entropy heuristics, regex token extraction &   │
-│                         │ AST secret leak prevention in CI / pre-commit stages.  │
+│ Zero-Trust & Hardening  │ Zero-open-port via Cloudflare Tunnels, systemd cgroup  │
+│                         │ isolation, Linux namespaces, UFW/nftables & seccomp.   │
 └─────────────────────────┴────────────────────────────────────────────────────────┘
+```
+
+#### 🎯 Defense-in-Depth & Mitigation Pipeline
+```text
+  [ Ingress / Recon ]          [ Active Execution ]          [ Containment & DFIR ]
+ ┌────────────────────┐       ┌────────────────────┐       ┌──────────────────────┐
+ │ • JA4+ Fingerprint │       │ • Velocity Tracking│       │ • Process Isolation  │
+ │ • Radix CIDR Check │  ──>  │ • Entropy Analysis │  ──>  │ • Merkle Audit Stamp │
+ │ • Tor / Datacenter │       │ • Privilege Monitor│       │ • Rollback & Triage  │
+ └────────────────────┘       └────────────────────┘       └──────────────────────┘
+        │                              │                              │
+        ▼                              ▼                              ▼
+  MITRE: T1590, T1595            MITRE: T1059, T1078            MITRE: T1562, T1070
 ```
 
 ---
@@ -125,6 +146,16 @@ Hi! I'm Iris, an independent developer specializing in **cybersecurity engineeri
   <img src="https://img.shields.io/badge/Cloudflare_Zero_Trust-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/SQLite_WAL-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+</p>
+
+#### Security Analysis & Tooling
+<p align="left">
+  <img src="https://img.shields.io/badge/Wireshark-PCAP_Forensics-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
+  <img src="https://img.shields.io/badge/Scapy-Packet_Crafting-red?style=for-the-badge&logo=python&logoColor=white" alt="Scapy" />
+  <img src="https://img.shields.io/badge/Ghidra-Binary_Triage-blueviolet?style=for-the-badge&logo=target" alt="Ghidra" />
+  <img src="https://img.shields.io/badge/Suricata-IDS_/_IPS-brightgreen?style=for-the-badge&logo=target" alt="Suricata" />
+  <img src="https://img.shields.io/badge/Burp_Suite-Security_Testing-orange?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
+  <img src="https://img.shields.io/badge/eBPF_/_Seccomp-Kernel_Filters-black?style=for-the-badge&logo=linux&logoColor=white" alt="eBPF" />
 </p>
 
 ---
