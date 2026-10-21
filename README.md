@@ -31,16 +31,16 @@
 
 ```text
 ┌───[ iris@sentinel-defense:~ ]──────────────────────────────────────────────────────────────┐
-│ ❄️ BLACKICE KERNEL INGRESS  : ACTIVE [atomic nftables prerouting packet drop]             │
-│ 🌐 KHORA SPATIAL COMPUTING  : ACTIVE [DCRA 1:1 traversable light & 40kHz ultrasound]      │
+│ ❄️ BLACKICE KERNEL INGRESS  : ACTIVE [atomic nftables prerouting packet drop]              │
+│ 🌐 KHORA SPATIAL COMPUTING  : ACTIVE [DCRA 1:1 traversable light & 40kHz ultrasound]       │
 │ ⚡ RADIX-TRIE LOOKUPS       : O(k) bitwise in-memory traversal (<0.005ms per lookup)       │
 │ 🛡️ CONSENSUS ARCHITECTURE   : VirusTotal-Style 4-Engine Aggregation (Near-Zero FP)         │
 │ 🤖 AGENT THREAT DEFENSE     : Official Model Context Protocol (MCP) Stdio Provider         │
 │ ⚙️ HARDWARE & ROBOTICS      : Bare-metal firmware (C/C++, FreeRTOS, CAN/SPI & sensors)     │
 │ 🍯 CANARY DECOY TRIPWIRES   : Active deception traps on /.env, /.git/HEAD (0% FP)          │
-│ ⚡ SHANNON ENTROPY INSPECT  : Base-2 calculation & exploit signature analyzer (<0.02ms)   │
+│ ⚡ SHANNON ENTROPY INSPECT  : Base-2 calculation & exploit signature analyzer (<0.02ms)    │
 │ 🔒 CRYPTOGRAPHIC AUDIT      : SHA-256 Merkle Hash-Chained Ingress Ledger                   │
-│ 🦀 LOW-LEVEL STACK          : Rust · C/C++ · Python · Linux Kernel Netfilter (eBPF/nft)   │
+│ 🦀 LOW-LEVEL STACK          : Rust · C/C++ · Python · Linux Kernel Netfilter (eBPF/nft)    │
 └────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
