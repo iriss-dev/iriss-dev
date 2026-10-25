@@ -3,16 +3,16 @@
 
   # Iris (iriss-dev) 👋
   
-  **Cybersecurity & Systems Developer** · **Embedded Firmware & Robotics** · **Rust, C/C++ Low-Latency & Hardware Probes**
+  **Pentesting Expert & Cybersecurity Developer** · **Embedded Firmware & Robotics** · **Rust, C/C++ Low-Latency & Hardware Probes**
 
   <!-- Animated Terminal Typing SVG -->
   <a href="https://github.com/iriss-dev">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&lines=Cybersecurity+%26+Defensive+Systems+Engineering;Low-Latency+Systems+in+Rust%2C+C%2FC%2B%2B+%26+Python;Embedded+Firmware%2C+Microcontrollers+%26+Robotics;Sub-millisecond+Linux+Kernel+Ingress+Defense+(%3C0.05ms);From+Bare-Metal+Silicon+to+Autonomous+AI+Agents;Creator+of+BlackICE%2C+IP-Sentinel+%26+Koharu+%F0%9F%8C%B8;Active+Deception+%26+Zero-False-Positive+Honeytraps" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&lines=Penetration+Testing+%26+Security+Assessment;Cybersecurity+%26+Defensive+Systems+Engineering;Low-Latency+Systems+in+Rust%2C+C%2FC%2B%2B+%26+Python;Embedded+Firmware%2C+Microcontrollers+%26+Robotics;Sub-millisecond+Linux+Kernel+Ingress+Defense+(%3C0.05ms);From+Bare-Metal+Silicon+to+Autonomous+AI+Agents;Creator+of+BlackICE%2C+IP-Sentinel+%26+Koharu+%F0%9F%8C%B8;Active+Deception+%26+Zero-False-Positive+Honeytraps" alt="Typing SVG" />
   </a>
 
   <!-- Curated High-Signal Badges -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Focus-Defensive_Systems_%26_Threat_Intel-00f0ff?style=flat-square" alt="Focus" />
+    <img src="https://img.shields.io/badge/Focus-Pentesting_%26_Defensive_Systems-00f0ff?style=flat-square" alt="Focus" />
     <img src="https://img.shields.io/badge/Stack-Rust_%C2%B7_C%2FC%2B%2B_%C2%B7_Python-8b5cf6?style=flat-square" alt="Stack" />
     <img src="https://img.shields.io/badge/Hardware-Embedded_%26_Robotics-f59e0b?style=flat-square" alt="Embedded" />
     <img src="https://img.shields.io/badge/AI_Agents-MCP_Server_Provider-10b981?style=flat-square" alt="MCP" />
@@ -48,7 +48,7 @@
 
 ### About Me
 
-Hey, I'm **Iris** (`iriss-dev`). I'm a systems developer and defensive engineer working across the full spectrum—from bare-metal embedded firmware and robotics to low-latency network defenses and autonomous AI agents.
+Hey, I'm **Iris** (`iriss-dev`). I'm a pentesting expert, systems developer, and defensive engineer working across the full spectrum—from bare-metal embedded firmware and robotics to low-latency network defenses and autonomous AI agents.
 
 I have a deep fascination with building things that interact with the physical and digital world with zero margin for error. I write low-level code in **Rust** and **C/C++** when timing needs to be deterministic down to the microsecond (whether that's a microcontroller control loop, a CAN/SPI bus protocol, or an eBPF kernel packet filter). For telemetry, data pipelines, and intelligence analysis, I use **Python**, and for high-throughput service orchestration, **Node.js** and **SQLite WAL**.
 
@@ -64,6 +64,19 @@ Recently, my work spans two major fronts: building high-performance **cybersecur
 - 🔬 **Kernel Ingress & eBPF**: Exploring eBPF/XDP zero-copy packet drop filters on Linux to bypass userspace network stack overhead entirely.
 - 🛡️ **TLS Handshake Forensics**: Improving JA4+ fingerprint clustering to correlate distributed bot waves and residential proxy rotations in real time.
 - 🌸 **Koharu Ecosystem**: Developing modular community automation with custom role color blend engines and low-latency interaction handling.
+
+---
+
+### Pentesting & Security Assessment
+
+I combine penetration testing with systems engineering to understand attack surfaces, validate security controls, and turn findings into practical remediation.
+
+- **Network assessment**: host discovery, port and service enumeration, exposure mapping, and configuration review.
+- **Web & API security**: authentication and authorization testing, input validation, session handling, and reproducible findings.
+- **Security tooling**: building tools for scoped reconnaissance, structured evidence collection, and repeatable assessments.
+- **Reporting & remediation**: clear technical evidence, impact analysis, remediation guidance, and verification after fixes.
+
+My testing is performed on owned systems or within an explicitly authorized scope, with responsible disclosure and respect for operational stability.
 
 ---
 
